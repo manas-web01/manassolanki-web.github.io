@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manas | Personal Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #ffd369;
+    }
+
+    .info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .info div {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hi, I'm Manas</h1>
+    <p>Student | Learning Web Development</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="info">
+        <div><b>Name:</b> Manas</div>
+        <div><b>Age:</b> 16</div>
+        <div><b>City:</b> Alwar, Rajasthan</div>
+        <div><b>Class:</b> 10th</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>My Journey</h2>
+      <p>
+        I am a 16-year-old student from Alwar, Rajasthan. I am learning web
+        development and building websites step by step. This is one of my
+        first public websites created using HTML and CSS.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Gallery</h2>
+      <div class="images">
+        <img src="https://picsum.photos/500/300?random=1">
+        <img src="https://picsum.photos/500/300?random=2">
+        <img src="https://picsum.photos/500/300?random=3">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Manas | Made with HTML & CSS
+  </footer>
+
+</body>
+</html>
